@@ -1,0 +1,100 @@
+body::-webkit-scrollbar{width: 16px;}
+body::-webkit-scrollbar-track {background-color:#f1f1f1;}
+body::-webkit-scrollbar-thumb {background-color:#fdf4c9;border-radius: 10px;}
+body::-webkit-scrollbar-thumb:hover {background: #ffe985;}
+body::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+width:16px;height:16px;background:#fdf4c9;}
+
+.navbar {
+  background-color: #ffe985 !important;
+  font-family: 'PT Serif', serif;
+}
+
+.frontpage {
+  display: flex;
+}
+
+.name {
+  font-family: 'Rubik Bubbles', cursive;
+  color: #e6c121;
+}
+
+.fe {
+  font-family: 'Jua', sans-serif;
+  color: rgb(77, 77, 77);
+}
+
+.intro {
+  font-family: 'Jua', sans-serif;
+}
+
+.intro_ex {
+  font-size: large;
+}
+
+.intro_name {
+  color: rgb(231, 158, 0);
+  font-size: x-large;
+}
+
+.title {
+  color: rgb(247, 184, 10);
+  font-weight: bold;
+  text-shadow: #756002;
+}
+
+.link {
+  color: rgb(231, 158, 0);
+}
+
+.site-img {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 5px;
+}
+
+
+.project {
+  height: 300px;
+}
+
+.skills {
+  height: 300px;
+}
+
+.footer {
+  height: 50px;
+  color: rgb(119, 119, 119);
+  position: fixed;
+  font-weight: bold;
+  text-shadow: #464646;
+  bottom: 0;
+  width: 100%;    /* 한 행 다 쓰기 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Serif', serif;
+}
+
+/* 1. not-provided 클래스는 기본적으로 보이지 않도록 설정 */
+.not-provided {
+  display: none;
+}
+
+/* 2. 470px 이하에서는, not-provided만 보이도록 설정 */
+@media (max-width: 470px) {
+  main,
+<<<<<<< HEAD
+=======
+  #frontpage,
+>>>>>>> f6342068284f0f35e22167f27b3f6ff4827c615d
+  section,
+  nav,
+  footer {
+    display: none;
+  }
+  
+  .not-provided {
+    display: block;
+  }
+}

@@ -1,0 +1,3 @@
+참고자료
+ORM : values_list
+https://jinmay.github.io/2020/05/25/django/django-values-and-values-list/

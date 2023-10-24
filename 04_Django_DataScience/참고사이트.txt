@@ -1,0 +1,6 @@
+표를 만드는 table / tr / th / td 태그 및 속성 정리
+https://aboooks.tistory.com/59
+
+판다스 데이터 프레임의 값 / 열 이름 / 리스트로 만들기
+https://computer-science-student.tistory.com/303
+
