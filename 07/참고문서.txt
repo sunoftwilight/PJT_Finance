@@ -1,0 +1,9 @@
+* 장고 ORM 최댓값 찾기 (aggregate : 집합하다/ 종합하다)
+```
+from django.db.models import Max 
+obj = Model.objects.aggregate(컬럼명=Max('컬럼명'))
+```
+: queryset이 아닌. '컬럼명'만 들어있는 dictionary 형태로 반환
+
+https://wangin9.tistory.com/entry/Django-orm-max-value-latest-index
+
